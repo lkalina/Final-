@@ -8,6 +8,11 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../style.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="dress" type="boolean" value="true" -->
+<!-- TemplateParam name="venue" type="boolean" value="true" -->
+<!-- TemplateParam name="band" type="boolean" value="true" -->
+<!-- TemplateParam name="centerpices" type="boolean" value="true" -->
+<!-- TemplateParam name="ring" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -15,14 +20,23 @@
 </h1>
 <p>Written by: The Wedding Planner </p>
 <h3><a href="../Wedding dress/index.html">Wedding Dress</a></h3>
-<p>	<a href="../Wedding dress/the-perfect-dress.html">The Perfect Dress</a></p>
+<p><!-- TemplateBeginIf cond="dress" --><a href="../Wedding dress/the-perfect-dress.html">The Perfect Dress</a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding Venue/index.html">Wedding Venue</a></h3>
-<p><a href="../Wedding Venue/the-perfect-venue.html">The Perfect Venue </a></p>
+<p><!-- TemplateBeginIf cond="venue" --><a href="../Wedding Venue/the-perfect-venue.html">The Perfect Venue </a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding DJ Band/index.html">Wedding  Band/Dj</a></h3>
-<p><a href="../Wedding DJ Band/the-perfect-band.html">The Perfect Band</a></p>
+<p><!-- TemplateBeginIf cond="band" --><a href="../Wedding DJ Band/the-perfect-band.html">The Perfect Band</a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding Centerpieces /index.html">Wedding Centerpieces</a></h3>
-<p><a href="../Wedding Centerpieces /the-perfect-decorations.html">The Perfect Centerpiece</a></p>
+<p><!-- TemplateBeginIf cond="centerpices" --><a href="../Wedding Centerpieces /the-perfect-decorations.html">The Perfect Centerpiece</a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding Rings /index.html">Wedding Rings</a></h3>
-<p><a href="../Wedding Rings /the-perfect-ring.html">The Perfect Ring</a></p>
+<p><!-- TemplateBeginIf cond="_document['ring']" --><a href="../Wedding Rings /the-perfect-ring.html">The Perfect Ring</a><!-- TemplateEndIf --></p>
+<p>&nbsp;</p>
+<!-- TemplateBeginEditable name="EditRegion3" -->
+<p>EDIT</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- TemplateEndEditable -->
 </body>
 </html>
