@@ -24,7 +24,7 @@
 <h3><a href="../Wedding Venue/index.html">Wedding Venue</a></h3>
 <p><!-- TemplateBeginIf cond="venue" --><a href="../Wedding Venue/the-perfect-venue.html">The Perfect Venue </a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding DJ Band/index.html">Wedding  Band/Dj</a></h3>
-<p><!-- TemplateBeginIf cond="band" --><a href="../Wedding DJ Band/the-perfect-band.html">The Perfect Band</a><!-- TemplateEndIf --></p>
+<p><!-- TemplateBeginIf cond="band" --><a href="../Wedding DJ Band/top-ten-songs.html">The Perfect Band</a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding Centerpieces /index.html">Wedding Centerpieces</a></h3>
 <p><!-- TemplateBeginIf cond="centerpices" --><a href="../Wedding Centerpieces /the-perfect-decorations.html">The Perfect Centerpiece</a><!-- TemplateEndIf --></p>
 <h3><a href="../Wedding Rings /index.html">Wedding Rings</a></h3>
